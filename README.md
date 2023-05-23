@@ -1,7 +1,7 @@
 # My Page
 My personal portfolio 
 
-<!-- #### Live Version: [Portfolio](https://rimswebdev-portfolio.vercel.app/) -->
+Live Version:(https://mypage-ashiq.vercel.app/)
 
 ## Built With
 
