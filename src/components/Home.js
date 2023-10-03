@@ -31,18 +31,21 @@ const Home = () => {
           </div>
         </div>
         </section>
-    
+          
+        <section>
 
-        <section className='py-10 pt-7 p-5 w-auto d-flex flex-column'>
-          <div className='d-sm-flex flex-col sm:flex-row items-center justify-center'>
-            <h1 class='mb-5 text-center sm:text-center lg:text-left text-3xl font-semibold w-bold custom-font ps-sm-5'>
+
+        </section>
+
+        <section className='pt-5  d-flex flex-column'>
+            <h1 class='mt-5 pe-1  text-center sm:text-center  text-4xl font-semibold custom-font ps-sm-5'>
               My Work Experience
             </h1>
-          </div>
-          <div class="w-full sm:w-auto">
+
+          <div>
             <VerticalTimeline>
                 <VerticalTimelineElement
-                      className="vertical-timeline-element--work"
+                      className="vertical-timeline-element--work w-1/2 md:w-full mx-auto"
                       contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                       contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                       date="May 2022 - July 2022"
@@ -68,8 +71,7 @@ const Home = () => {
                       Proposal on the BIP:39 on the standard of mnemonic phrases for Bitcoin Core and accepted.
                     </p>
                 </VerticalTimelineElement>
-
-                  <VerticalTimelineElement
+                <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
